@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animales Salvajes</title>
+        <link rel="stylesheet" href="estilos.css" />
+    </head>
+    
+    <body>
+        <header>
+        
+                <div class="header-container">
+                    <img src="./imagen/logo ani.jpg" alt="anim" width="100" height="100">
+                    <a href="index.html">inicio</a>
+                    <a href="contacto.html">contacto</a>
+                    <a href="multimedia.html">multimedia</a>
+                </div>
+        
+        </header>
+  <br>
+
+  <h2>
+    <strong>FORMULARIO DE CONTACTO</strong>
+</h2>
+  <br><br><br>
+  <div class="form-container">
+  <form>
+    <span class="required">
+        NOMBRE <input type="text" name="NOMBRE:" required>
+    </span>
+    <br>
+    <span class="required">
+        DNI <input type="number" name="DNI:" required>
+    </span>
+    <br>
+    <span class="required">
+        EMAIL <input type="email" name="EMAIL:" required>
+    </span>
+    <br>
+      <span>
+        EDAD <input type="number" name="EDAD:">
+      </span>
+      <br>
+      <span>
+        PAIS <select name="pais" required>
+            <option selected="selected" hidden="hidden"></option>
+            <option value="1">Argentina</option>
+            <option value="2">italia</option>
+            <option value="3">uruguay</option>
+        </select>
+    </span>
+    <br>
+      <span>
+          IDIOMAS:
+          español <input type="checkbox" name="idioma" value="español">
+          ingles<input type="checkbox" name="idioma" value="ingles">
+          italiano<input type="checkbox" name="idioma" value="italiano">
+      </span>
+      <br>
+
+      <button id="enviarformulario">Enviar</button>
+  </form>
+ </div>
+</body>
+</html>

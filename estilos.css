@@ -1,0 +1,64 @@
+body {
+    background-color: #6a6363;
+}
+ .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0 10px;
+  }
+  
+  .header-container img {
+    margin-right: 10px;
+  }
+  .social-media-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-media-container img,
+  .social-media-container p {
+    margin: 0 10px;
+  }
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container span {
+    display: flex;
+    align-items: center;
+  }
+  
+  .form-container span input[type="text"],
+  .form-container span input[type="number"],
+  .form-container span input[type="email"] {
+    margin-right: 5px;
+  }
+  
+  .form-container span.required::after {
+    content: "*";
+    color: red;
+    margin-left: 5px;
+  }
+  .titulo { 
+    display: flex;
+    justify-content: center;
+
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    margin: 10px; /* Añade un margen entre las imágenes */
+  }
+  .header-container a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
